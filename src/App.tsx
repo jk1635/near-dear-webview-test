@@ -15,6 +15,7 @@ import ListPage from '@pages/ListPage.tsx';
 import LoginPage from '@pages/LoginPage.tsx';
 import MainPage from '@pages/MainPage.tsx';
 import MyPage from '@pages/MyPage.tsx';
+import PaymentPage from '@pages/PaymentPage.tsx';
 
 function App() {
     const ScrollToTop = () => {
@@ -39,6 +40,7 @@ function App() {
                             <Route path="/list" element={<ListPage />} />
                             <Route path="/listDetail" element={<ListDetailPage />} />
                             <Route path="/login" element={<LoginPage />} />
+                            <Route path="/payment" element={<PaymentPage />} />
                             <Route path="/my" element={<MyPage />} />
                             {/*<Route path="/*" element={<NotFound />} />*/}
                         </Routes>
